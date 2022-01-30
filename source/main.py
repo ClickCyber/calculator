@@ -14,7 +14,7 @@ def add_iteam(number):
 def result_iteam():
   global msg
   result.delete('0', 'end')
-  result.insert(END, eval(msg))
+  result.insert(END, eval(msg)) // i need remove this (RCE)
   msg = ''
  
 
